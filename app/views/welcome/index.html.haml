@@ -1,1 +1,32 @@
-%h1 Welcome to Welcome#Index
+#banner
+  .banner_content
+    %h1 MW Notebook
+    %p Bring your notes with you everywhere!
+    %button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+  .wrapper
+    %p.quote "If you like making notes, this is the app for you!"
+    %p.name - Octopus DJ
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 The
+        %p Tumblr Wes Anderson pork belly cardigan. Literally plaid deep v viral. Neutra butcher cardigan kale chips, four dollar toast Pitchfork fingerstache 3 wolf moon Bushwick.
+      .callout
+        %h2 Space
+        %p Mustache Brooklyn wayfarers twee, deep v tote bag paleo street art pork belly fanny pack lo-fi drinking vinegar cred.
+      .callout
+        %h2 Holder
+        %p Street art biodiesel semiotics, 90's typewriter gastropub fingerstache Portland +1.
+
+#bottom_cta
+  .wrapper
+    %h2 Most awesome dude
+    %p Go on. Sign up. You know you want to.
+    %button= link_to "Sign up here", new_user_registration_path
+
+  %footer
+    %p &copy; Mark Waldron
