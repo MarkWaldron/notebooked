@@ -4,7 +4,7 @@
   background-repeat: no-repeat;
   background-position: top center;
   width: 100%;
-  min-height: 500px;
+  height: 90vh;
   display: table;
   .banner_content {
     display: table-cell;
@@ -48,6 +48,8 @@
   width: 100%;
   min-height: 400px;
   display: table;
+  height: 100vh;
+
   .callout_inner {
     display: table-cell;
     vertical-align: middle;
